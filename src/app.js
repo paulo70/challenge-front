@@ -1,10 +1,13 @@
 import React from 'react'
+import Main from './components/Main'
+
+import './app.scss'
 
 function App (){
   return (
-    <div>
-        <h1>hello</h1>
-    </div>
+    <>
+      <Main />
+    </>
   )
 }
 

@@ -1,0 +1,68 @@
+@import '../../variables/colors/colors.scss';
+@import '../../variables/size.scss';
+
+.wrapper-main{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $ic-color--white;
+
+    &--title,
+    &--subtitle{
+        color: $ic-color--blue-light;
+    }
+
+    &--title{
+        font-size: $ic-size--xlarge;
+
+        margin: 210px 0 0;
+        span{
+            font-weight: bold;
+        }
+    }
+
+    &--subtitle{
+        font-size: $ic-size--small;
+        text-transform: uppercase;
+        letter-spacing: 0.500em;
+
+        margin-top: 0.438em;;
+    }
+
+    &--link{
+        background: $ic-color--blue-light;
+        font-size: $ic-size--medium;
+        font-weight: bold;
+        color: $ic-color--white;
+    
+        
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        letter-spacing: 0.313em;
+        line-height: 3.4;
+        border-radius: 10px;
+        
+        height: 56px;
+        width: 189px;
+
+        &:hover{
+            background:$ic-color--blue-strong;
+
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .wrapper-main{
+        &--title{
+            font-size: $ic-size--large;
+        }
+
+        &--link{
+            width: 100%;
+        }
+    }
+}
