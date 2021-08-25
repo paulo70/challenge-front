@@ -14,7 +14,6 @@
 
     &--container{
         max-width: 1366px;
-        height: 100vh;
         margin: 0 auto;
 
         &-master{
@@ -50,8 +49,32 @@
                     color: $ic-color--white;
                     font-weight: normal;
 
+                    margin-top: 20px;
+                    padding-bottom: 50px;
+
                     span{
                         font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .wrapper-color{
+        &--container{
+            &-master{
+                &-button:nth-child(1n) {
+                    order: 4;
+                    margin-top: 36px;
+                }
+
+                &-name{
+                    h3{
+                        span{
+                            white-space: nowrap;
+                        }
                     }
                 }
             }
