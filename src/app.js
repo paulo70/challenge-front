@@ -1,12 +1,13 @@
 import React from 'react'
-import Main from './components/Main'
+
+import Router from './Router'
 
 import './app.scss'
 
 function App (){
   return (
     <>
-      <Main />
+      <Router />
     </>
   )
 }
