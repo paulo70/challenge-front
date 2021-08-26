@@ -1,4 +1,3 @@
-![Welcome](logo-small.png?raw=true "Bem vindo!")
 # Desafio de front-end iClinic
 
 Para rodar o projeto localmente:
@@ -9,7 +8,7 @@ Para rodar o projeto localmente:
 
 3) npm run dev
 
-4) acesse seu localhost
+4) acesse seu http://localhost:3000
 
 
 ### Desktop
@@ -28,4 +27,4 @@ Para rodar o projeto localmente:
 
 >  Versão responsiva `< 800px`.
 
-![Dark Side Mobile](dark-side-mobile.png?raw=true "Dark side mobile")
+![Dark Side Mobile](/src/assets/images/responsive.png?raw=true "Dark side mobile")
