@@ -3,9 +3,11 @@ import { A } from 'hookrouter'
 
 import './back.scss'
 
-const goBack = () => {
+const goBack = ({ color }) => {
     return (
-        <A href="/" className="goBack"><i className="goBack--arrow"></i>back</A>
+        <A href="/" className={`goBack ${color !== 'LukeSkywalker' ? 'white' : 'black'}`}>
+            <i className={`goBack--arrow`}></i> back
+        </A>
     )
 }
 
