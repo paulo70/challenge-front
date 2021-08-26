@@ -13,6 +13,10 @@
             color: $ic-color--yellow;
         }
 
+        &:disabled {
+            background: #6b6969;
+        }
+
         font-size: $ic-size--default;
         font-weight: bold;
         border-radius: 10px;
