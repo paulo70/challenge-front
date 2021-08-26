@@ -16,7 +16,7 @@ Para rodar o projeto localmente:
 
 > Tela de boas vindas.
 
-![Welcome](../assets/images/home-desktop.png?raw=true "Bem vindo!")
+![Welcome](/master/src/assets/images/home-desktop.png?raw=true "Bem vindo!")
 
 > Tela do lado sombrio da força.
 
