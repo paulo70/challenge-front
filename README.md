@@ -27,4 +27,4 @@ Para rodar o projeto localmente:
 
 >  Versão responsiva `< 800px`.
 
-![Dark Side Mobile](/src/assets/images/mobile.png?raw=true "Dark side mobile")
+![Dark Side Mobile](/src/assets/images/responsive.png?raw=true "Dark side mobile")
