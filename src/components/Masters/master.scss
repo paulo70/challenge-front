@@ -29,7 +29,7 @@
     .wrapper-color {
         &--container {
             &-master {
-                &-button:nth-child(1n) {
+                button:nth-child(1n) {
                     order: 4;
                     margin-top: 36px;
                 }
