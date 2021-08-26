@@ -2,13 +2,13 @@
 
 Para rodar o projeto localmente:
 
-1) git clone
+1) # git clone
 
-2) npm install
+2) # npm install
 
-3) npm run dev
+3) # npm run dev
 
-4) acesse seu localhost
+4) # acesse seu http://localhost:3000
 
 
 ### Desktop
