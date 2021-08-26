@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { A } from 'hookrouter'
 import Title from '../Titles'
+import Button from '../ButtonStart'
 
 import './main.scss'
 
@@ -41,7 +41,7 @@ const Main = () => {
     return (
         <div className="wrapper-main">
             <Title />
-            <A href={`/master/${master}`} onClick={() => handleSortMaster} className="wrapper-main--link">start</A>
+            <Button url={master} handleFn={handleSortMaster} />
         </div >
     )
 }
