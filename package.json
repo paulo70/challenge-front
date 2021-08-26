@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/paulo70/challenge-front/issues"
   },
-  "homepage": "https://paulo70.github.io/challenge-front/",
+  "homepage": "challenge-front/",
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/plugin-proposal-class-properties": "^7.5.0",
