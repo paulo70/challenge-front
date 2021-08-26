@@ -1,0 +1,39 @@
+@import "../../variables/colors/colors.scss";
+@import "../../variables/size.scss";
+
+.wrapper-color {
+    width: 100%;
+    position: relative;
+
+    &.black {
+        background: $ic-color--black;
+    }
+
+    &.yellow {
+        background: $ic-color--yellow;
+    }
+
+    &--container {
+        max-width: 1366px;
+        margin: 0 auto;
+
+        &-master {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .wrapper-color {
+        &--container {
+            &-master {
+                button:nth-child(1n) {
+                    order: 4;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import "../../variables/colors/colors.scss";
+
+.wrapper-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $ic-color--white;
+}
+
+@media (max-width: 800px) {
+    .wrapper-main {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
