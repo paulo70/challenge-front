@@ -1,4 +1,3 @@
-![Welcome](logo-small.png?raw=true "Bem vindo!")
 # Desafio de front-end iClinic
 
 Para rodar o projeto localmente:
@@ -28,4 +27,4 @@ Para rodar o projeto localmente:
 
 >  Versão responsiva `< 800px`.
 
-![Dark Side Mobile](dark-side-mobile.png?raw=true "Dark side mobile")
+![Dark Side Mobile](/src/assets/images/mobile.png?raw=true "Dark side mobile")
