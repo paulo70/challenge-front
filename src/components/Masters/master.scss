@@ -1,78 +1,54 @@
-@import '../../variables/colors/colors.scss';
-@import '../../variables/size.scss';
+@import "../../variables/colors/colors.scss";
+@import "../../variables/size.scss";
 
-.wrapper-color{
+.wrapper-color {
     width: 100%;
 
-    &.black{
-        background:$ic-color--black;
+    &.black {
+        background: $ic-color--black;
     }
 
-    &.yellow{
+    &.yellow {
         background: $ic-color--yellow;
     }
 
-    &--container{
+    &--container {
         max-width: 1366px;
         margin: 0 auto;
 
-        &-master{
+        &-master {
             display: flex;
             flex-direction: column;
             align-items: center;
-            
-            &-button{
+
+            &-button {
                 font-size: $ic-size--default;
                 font-weight: bold;
                 background: $ic-color--white;
                 border-radius: 10px;
                 color: $ic-color--black-medium;
-                
+
                 width: 347px;
-                padding: 1.250em;
+                padding: 1.25em;
                 border: none;
                 cursor: pointer;
-                
-            }
-    
-            &-image{
-                margin-top: 40px;
-                img{
-                    border-radius: 50%;
-                }
-            }
-    
-            &-name{
-                h3{
-                    font-size: $ic-size--large;
-                    text-align: center;
-                    color: $ic-color--white;
-                    font-weight: normal;
-
-                    margin-top: 20px;
-                    padding-bottom: 50px;
-
-                    span{
-                        font-weight: bold;
-                    }
-                }
             }
         }
     }
 }
 
 @media (max-width: 800px) {
-    .wrapper-color{
-        &--container{
-            &-master{
+    .wrapper-color {
+        &--container {
+            &-master {
                 &-button:nth-child(1n) {
                     order: 4;
                     margin-top: 36px;
                 }
 
-                &-name{
-                    h3{
-                        span{
+                &-name {
+                    h3 {
+                        span {
                             white-space: nowrap;
                         }
                     }
