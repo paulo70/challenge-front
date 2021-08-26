@@ -16,15 +16,15 @@ Para rodar o projeto localmente:
 
 > Tela de boas vindas.
 
-![Welcome](../assets/images/home-desktop.png?raw=true "Bem vindo!")
+![Welcome](/src/assets/images/home-desktop.png?raw=true "Bem vindo!")
 
 > Tela do lado sombrio da força.
 
-![Dark Side](dark-side.png?raw=true "Dark side")
+![Dark Side](/src/assets/images/interna-01.png?raw=true "Dark side")
 
 > Tela do lado da luz.
 
-![Light Side](light-side.png?raw=true "Light side")
+![Light Side](/src/assets/images/interna-02.png?raw=true "Light side")
 
 >  Versão responsiva `< 800px`.
 
