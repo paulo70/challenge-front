@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/paulo70/challenge-front/issues"
   },
-  "homepage": "https://github.com/paulo70/challenge-front#readme",
+  "homepage": "https://paulo70.github.io/challenge-front/",
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/plugin-proposal-class-properties": "^7.5.0",
@@ -53,6 +53,7 @@
     "@types/webpack": "^4.41.12",
     "@yisheng90/react-loading": "^1.3.1",
     "classnames": "^2.2.6",
+    "gh-pages": "^3.2.3",
     "install": "^0.13.0",
     "normalize.css": "^8.0.1",
     "npm": "^6.14.5",
