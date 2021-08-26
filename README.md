@@ -20,11 +20,11 @@ Para rodar o projeto localmente:
 
 > Tela do lado sombrio da força.
 
-![Dark Side](dark-side.png?raw=true "Dark side")
+![Dark Side](/src/assets/images/interna-01.png?raw=true "Dark side")
 
 > Tela do lado da luz.
 
-![Light Side](light-side.png?raw=true "Light side")
+![Light Side](/src/assets/images/interna-02.png?raw=true "Light side")
 
 >  Versão responsiva `< 800px`.
 
