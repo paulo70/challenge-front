@@ -6,11 +6,11 @@ import Master from '../components/Masters'
 
 
 const routes = {
-    '/'  : () => <Main />,
-    '/master' : () => <Master />
+    '/': () => <Main />,
+    '/master/:type': ({ type }) => <Master param={type} />
 }
 
-function Route(){
+function Route() {
     return useRoutes(routes)
 }
 
