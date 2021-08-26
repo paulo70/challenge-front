@@ -1,0 +1,25 @@
+@import "../../variables/colors/colors.scss";
+@import "../../variables/size.scss";
+
+.wrapper-button {
+    button {
+        &.bgWhite {
+            background: $ic-color--white;
+            color: $ic-color--black-medium;
+        }
+
+        &.bgBlack {
+            background: $ic-color--black;
+            color: $ic-color--yellow;
+        }
+
+        font-size: $ic-size--default;
+        font-weight: bold;
+        border-radius: 10px;
+
+        width: 347px;
+        padding: 1.25em;
+        border: none;
+        cursor: pointer;
+    }
+}
