@@ -37,7 +37,7 @@ module.exports = {
 
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'app.css'
+      filename: './app.css'
     })
   ],
 
@@ -59,8 +59,8 @@ module.exports = {
         ]
       },
       {
-       test: /\.(png|svg|jpg|gif)$/,
-       use: {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: {
           loader: 'url-loader'
         }
       }

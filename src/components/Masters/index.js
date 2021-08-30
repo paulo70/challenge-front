@@ -49,11 +49,6 @@ const Master = ({ param }) => {
         }
     }
 
-    useEffect(() => {
-        console.log(param, 'teste')
-
-    }, [URL])
-
     return (
         <div className={`wrapper-color ${URL === 'LukeSkywalker' ? 'yellow' : 'black'}`}>
             {loading && (
